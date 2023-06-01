@@ -50,5 +50,14 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+    
 
 });
+function changeLabel() {
+    var label = document.querySelector('.accordion__label');
+    if (label.innerHTML === "▼") {
+      label.innerHTML = "▲";
+    } else {
+      label.innerHTML = "▼";
+    }
+  }
